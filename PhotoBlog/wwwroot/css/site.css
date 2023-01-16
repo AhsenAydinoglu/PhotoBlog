@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.posts {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.post-image > img {
+    width: 100%;
+}
+
+.post-details {
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem 0;
+    font-size: .8em;
+}
+
+.post-time {
+    font-style: italic;
+}
